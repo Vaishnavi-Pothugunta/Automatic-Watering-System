@@ -3,7 +3,7 @@
 > *Know the plant, Grow the plant!*
 
 ### Contents
-1. [What is Automatic Watering System (AWS)?](#what-is-automatic-watering-system-aws)
+1. [What is Automatic Watering System (AWS)?](#1-what-is-automatic-watering-system-aws)
 2. What is AWS using Soil moisture Sensor?
 3. What is AWS using Real Time Clock - DS3231?
 4. How to build an AWS using Soil Moisture Sensor and RTC DS3231?
