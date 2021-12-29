@@ -57,13 +57,16 @@ It helps you in watering at times when your not in home/place for long time. You
 
 #### Architecture / Workflows  
 * **AWS using Soil moisture Sensor**
-
+  ![Architecture for AWS using Soil moisture Sensor]()
+  
 * **AWS using Real Time Clock - DS3231**
+  ![Architecture for AWS using Real Time Clock - DS3231]()
  
 #### Schematic Diagrams
 * **AWS using Soil moisture Sensor**
-
+  ![Schematic diagram for AWS using Soil moisture Sensor]()
 * **AWS using Real Time Clock - DS3231**
+  ![Schematic diagram for AWS using Real Time Clock - DS3231]()
 
 #### Code and Upload
 * **Uploading time into RTC DS3231 for the first time (Only for AWS using Timer)**  
@@ -80,6 +83,8 @@ It helps you in watering at times when your not in home/place for long time. You
    ```
    5. Now upload it to Arduino which is connected to RTC alone. (No changes in connections, just connect RTC alone to Arduino)
    6. After Successful Upload, follow the below steps.
+
+  ![Upload time for first time in DS3231]()
 
 * **AWS using Soil moisture Sensor and Real Time Clock - DS3231**  
 
