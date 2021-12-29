@@ -83,16 +83,16 @@ It helps you in watering at times when your not in home/place for long time. You
 
 * **AWS using Soil moisture Sensor and Real Time Clock - DS3231**  
 
-  1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Code/Automatic%20Watering%20System%20-%20Sensor.ino) or [AWS-timer](docs/AWS-Code/Automatic Watering System - Timer.ino), whichever you wanted to build.
+  1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor.ino](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Code/Automatic%20Watering%20System%20-%20Sensor.ino) or [AWS-timer.ino](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Code/Automatic%20Watering%20System%20-%20Timer.ino), whichever you wanted to build.
   2. Make sure you selected the `port` and `board type` from `Tools` menu before uploading.
   3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
   4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
 
 * **AWS - Software part (ADDITIONAL)**
-  1. Open Google colab / Jupyter notebook and open the code file [AWS-software](docs/AWS-Code/TARP_SOFTWARE.ipynb) in that.
+  1. Open Google colab / Jupyter notebook and open the code file [AWS-software.ipynb](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Code/TARP_SOFTWARE.ipynb) in that.
   2. This Software part is all about to check which is the best machine learning model to predict whether to water the plant or not.
   3. 4 ML models were trained and the best accuracy model is used to predict the manually collected values of temperature and moisture values.
-  4. [Datasets](docs/AWS-Dataset.csv) are also added in repo.
+  4. [Datasets](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Dataset.csv) are also added in repo.
 
 ### 5. Where to get help?  
 Few video links were attached, which Demonstrates how this Automatic watering System works. 
@@ -106,4 +106,4 @@ This is work done by a team of 5 students from Vellore Institute of Technology, 
   - [N Sudheer Kumar](https://github.com/NelakurthiSudheer)
   - [M Bhumika](https://github.com/Bhumika-Manchikanti)
   - [Y Lakshmi Saicharitha](https://github.com/LakshmiSaicharitha-Yallarubailu)
-  - [T Jayasri]()
+  - [T Jayasri](https://github.com/jayasrireddy19)
