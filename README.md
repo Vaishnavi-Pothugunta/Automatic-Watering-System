@@ -83,7 +83,7 @@ It helps you in watering at times when your not in home/place for long time. You
 
 * **AWS using Soil moisture Sensor and Real Time Clock - DS3231**  
 
-  1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor](docs/AWS-Code/Automatic Watering System - Sensor.ino) or [AWS-timer](docs/AWS-Code/Automatic Watering System - Timer.ino), whichever you wanted to build.
+  1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor](https://github.com/Vaishnavi-Pothugunta/Automatic-Watering-System/blob/main/AWS-Code/Automatic%20Watering%20System%20-%20Sensor.ino) or [AWS-timer](docs/AWS-Code/Automatic Watering System - Timer.ino), whichever you wanted to build.
   2. Make sure you selected the `port` and `board type` from `Tools` menu before uploading.
   3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
   4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
