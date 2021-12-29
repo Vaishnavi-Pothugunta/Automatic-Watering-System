@@ -3,7 +3,7 @@
 > *Know the plant, Grow the plant!*
 
 ### Contents
-1. [What is Automatic Watering System (AWS)?](#what-is-automatic-watering-system-(aws)?)
+1. [What is Automatic Watering System (AWS)?](#what-is-automatic-watering-system-aws)
 2. What is AWS using Soil moisture Sensor?
 3. What is AWS using Real Time Clock - DS3231?
 4. How to build an AWS using Soil Moisture Sensor and RTC DS3231?
@@ -16,7 +16,7 @@
 6. Contribution
 
 
-### What is Automatic Watering System (AWS)?
+### 1. What is Automatic Watering System (AWS)?
 We all know that plants are very beneficial to all human beings in many aspects. Plants helps in keeping the environment healthy by cleaning air naturally and producing oxygen. Many people love to have plants in their backyard. But due to civilization and insufficiency of place many people used to grow plants in mould or dirt, pot, and placed on the windowsill. These plants are dependent on conventional breeding - watering, and provide the right amount of sun to sustain life and growth. In busy schedule of day-to-day life, many time people forget to water their plants and due to this plants suffers many disorders and ultimately died. In addition, the world's biggest problem in modem society is the shortage of water resources, agriculture is a demanding job to consume large amounts of water. It is very essential to utilize the water resources in proper way.  
 > Plants in our backyard/indoor are to be taken care of even in our absence, this is what we achieved through our work. Our Solution approach is entirely to change watering Manually to watering Automatically.  
 
