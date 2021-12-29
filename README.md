@@ -88,6 +88,12 @@ It helps you in watering at times when your not in home/place for long time. You
   3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
   4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
 
+* **AWS - Software part (ADDITIONAL)**
+  1. Open Google colab / Jupyter notebook and open the code file [AWS-software]() in that.
+  2. This Software part is all about to check which is the best machine learning model to predict whether to water the plant or not.
+  3. 4 ML models were trained and the best accuracy model is used to predict the manually collected values of temperature and moisture values.
+  4. Datasets are also added in repo.
+
 ### 5. Where to get help?  
 Few video links were attached, which Demonstrates how this Automatic watering System works. 
   - [AWS using Sensor (Explained)](https://drive.google.com/file/d/10fOE0BtBTWe_BWOAbMEBUET6oRx-6mro/view?usp=sharing)
