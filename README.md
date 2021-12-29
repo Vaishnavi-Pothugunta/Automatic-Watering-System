@@ -4,16 +4,16 @@
 
 ### Contents
 1. [What is Automatic Watering System (AWS)?](#1-what-is-automatic-watering-system-aws)
-2. What is AWS using Soil moisture Sensor?
-3. What is AWS using Real Time Clock - DS3231?
-4. How to build an AWS using Soil Moisture Sensor and RTC DS3231?
-   - Requirements
-   - Module / Component Descriptions
-   - Architecture / Workflows
-   - Schematic Diagrams
-   - Code and Upload
-5. Where to get help?
-6. Contribution
+2. [What is AWS using Soil moisture Sensor?](#2-what-is-aws-using-soil-moisture-sensor)
+3. [What is AWS using Real Time Clock - DS3231?](#3-what-is-aws-using-real-time-clock---ds3231)
+4. [How to build an AWS using Soil Moisture Sensor and RTC DS3231?](#4-how-to-build-an-aws-using-soil-moisture-sensor-and-rtc-ds3231)
+   - [Requirements](#requirements)
+   - [Module / Component Descriptions](#module--component-description)
+   - [Architecture / Workflows](#architecture--workflows)
+   - [Schematic Diagrams](#schematic-diagrams)
+   - [Code and Upload](#code-and-upload)
+5. [Where to get help?](#5-where-to-get-help)
+6. [Contribution](#6-contribution)
 
 
 ### 1. What is Automatic Watering System (AWS)?
@@ -83,7 +83,7 @@ It helps you in watering at times when your not in home/place for long time. You
 
 * **AWS using Soil moisture Sensor and Real Time Clock - DS3231**  
 
-  > 1. Open Arduino IDE and open code files (.ino file).
+  > 1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor]() or [AWS-timer](), whichever you wanted to build.
   > 2. Make sure you selected the `port` and `board type` from `Tools` menu before uploading.
   > 3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
   > 4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
