@@ -1,4 +1,4 @@
-# **Automatic Watering System using Arduino**
+# **Automatic Watering System using Soil Moisture Sensor and RTC Timer with Arduino**
 ### *Technical Answers to Real-World Problems*  
 > *Know the plant, Grow the plant!*
 
@@ -44,15 +44,15 @@ It helps you in watering at times when your not in home/place for long time. You
 * Arduino IDE – 1.8.16 (recommended) - The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. This software can be used with any Arduino board.
 
 #### Module / Component Description
-* Arduino UNO:
+* **Arduino UNO:**  
   Arduino Uno is a microcontroller board based on the ATmega328. It has 14 digital input / output pins (of which 6 can be used as PWM outputs), 6 analog inputs, 16 MHz ceramic resonator, USB connection, power jack, ICSP plug, and a reset button. It contains everything needed to support the microcontroller; simply use the USB cable or power it with a AC-to-DC adapter or battery is connected to a computer begins.
-* Relay:  
+* **Relay:**  
   Relay is an electrically operated switch. Many relays for switching solenoid mechanism mechanically operated, but can also be used for other principles of operation. Relays are widely used in early computers to telephones and perform logical operations.  
   The Relay module is a switch that controlled by an electromagnet. It is used to control the on and off of the DC watering pump by opening or closing the electric path that passes to the watering pump. It is controlled by the code from the Arduino.
-* Soil Moisture Sensor:
+* **Soil Moisture Sensor:** 
   A moisture sensor is used to sense the level of moisture content present in the irrigation field. It has a level detection module in which we can set a reference value. This circuit can be used with analog probes that produce a voltage proportional to soil moisture. The moisture content of the soil is found by using the soil moisture sensor which produces an equivalent output voltage proportional to the conductivity between the two probes. The module has a built-in potentiometer for sensitivity adjustment of the digital output (DO).  
   You can set a threshold by using a potentiometer; So that when the moisture level exceeds the threshold value, the module will output LOW otherwise HIGH.  
-* Real Time Clock (RTC) - DS3231:  
+* **Real Time Clock (RTC) - DS3231:**  
   The working in this RTC module is as follows, Firstly the condition of timer from when the watering has to happen is being given in loop through Arduino and the rtc is set to current time, when the relay is connected to an external power supply, the loop executes and checks if the current time of conditioned time. If the time matches, power supply is on and the watering happens and similarly the relay will be triggered off, if the loop checks for the stop time and matches and thus, watering does stops.  
 
 #### Architecture / Workflows  
