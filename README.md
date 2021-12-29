@@ -49,7 +49,7 @@ It helps you in watering at times when your not in home/place for long time. You
 * **Relay:**  
   Relay is an electrically operated switch. Many relays for switching solenoid mechanism mechanically operated, but can also be used for other principles of operation. Relays are widely used in early computers to telephones and perform logical operations.  
   The Relay module is a switch that controlled by an electromagnet. It is used to control the on and off of the DC watering pump by opening or closing the electric path that passes to the watering pump. It is controlled by the code from the Arduino.
-* **Soil Moisture Sensor:** 
+* **Soil Moisture Sensor:**  
   A moisture sensor is used to sense the level of moisture content present in the irrigation field. It has a level detection module in which we can set a reference value. This circuit can be used with analog probes that produce a voltage proportional to soil moisture. The moisture content of the soil is found by using the soil moisture sensor which produces an equivalent output voltage proportional to the conductivity between the two probes. The module has a built-in potentiometer for sensitivity adjustment of the digital output (DO).  
   You can set a threshold by using a potentiometer; So that when the moisture level exceeds the threshold value, the module will output LOW otherwise HIGH.  
 * **Real Time Clock (RTC) - DS3231:**  
@@ -68,25 +68,25 @@ It helps you in watering at times when your not in home/place for long time. You
 #### Code and Upload
 * **Uploading time into RTC DS3231 for the first time (Only for AWS using Timer)**  
 
-  > 1. Open Arduino IDE, go to `File` and select `Examples` in menu bar.
-  > 2. Then select `DS3231`, choose `Arduino` and select `DS3231_Serial_Easy`.
-  > 3. Now, Do changes in `Void Setup()`.
-  > 4. You can see the following and change Day, Time, Date to your current ones.
-  >  ```
-  >  //The following lines can be uncommented to set the date and time
-  >  rtc.setDOW(WEDNESDAY);     // Set Day-of-Week to SUNDAY
-  >  rtc.setTime(12, 0, 0);     // Set the time to 12:00:00 (24hr format)
-  >  rtc.setDate(1, 1, 2014);   // Set the date to January 1st, 2014
-  >  ```
-  >  5. Now upload it to Arduino which is connected to RTC alone. (No changes in connections, just connect RTC alone to Arduino)
-  >  6. After Successful Upload, follow the below steps.
+  1. Open Arduino IDE, go to `File` and select `Examples` in menu bar.
+  2. Then select `DS3231`, choose `Arduino` and select `DS3231_Serial_Easy`.
+  3. Now, Do changes in `Void Setup()`.
+  4. You can see the following and change Day, Time, Date to your current ones.
+   ```
+   //The following lines can be uncommented to set the date and time
+   rtc.setDOW(WEDNESDAY);     // Set Day-of-Week to SUNDAY
+   rtc.setTime(12, 0, 0);     // Set the time to 12:00:00 (24hr format)
+   rtc.setDate(1, 1, 2014);   // Set the date to January 1st, 2014
+   ```
+   5. Now upload it to Arduino which is connected to RTC alone. (No changes in connections, just connect RTC alone to Arduino)
+   6. After Successful Upload, follow the below steps.
 
 * **AWS using Soil moisture Sensor and Real Time Clock - DS3231**  
 
-  > 1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor]() or [AWS-timer](), whichever you wanted to build.
-  > 2. Make sure you selected the `port` and `board type` from `Tools` menu before uploading.
-  > 3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
-  > 4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
+  1. Open Arduino IDE and open code files (.ino file) i.e., [AWS-sensor]() or [AWS-timer](), whichever you wanted to build.
+  2. Make sure you selected the `port` and `board type` from `Tools` menu before uploading.
+  3. Now, Upload it to the Arduino UNO connecting to the pc using D-type cable.
+  4. After Successfully uploading, Connect the Power supply to relay and the AWS starts working as per the written code.
 
 ### 5. Where to get help?  
 Few video links were attached, which Demonstrates how this Automatic watering System works. 
